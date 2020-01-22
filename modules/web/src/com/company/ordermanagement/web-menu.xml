@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://schemas.haulmont.com/cuba/menu.xsd">
+    <menu id="application-ordermanagement" insertBefore="administration">
+        <item screen="ordermanagement_Customer.browse" icon="MALE"/>
+        <item screen="ordermanagement_Product.browse" icon="font-icon:BARCODE"/>
+        <item screen="ordermanagement_Order.browse" icon="SHOPPING_CART"/>
+    </menu>
+</menu-config>
