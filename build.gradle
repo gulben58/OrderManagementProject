@@ -111,7 +111,7 @@ configure(coreModule) {
         host = 'localhost'
         dbName = 'ordermanagement'
         dbUser = 'sa'
-        dbPassword = '1'
+        dbPassword = '123'
         dbmsVersion = '2012'
     }
 
@@ -120,7 +120,7 @@ configure(coreModule) {
         host = 'localhost'
         dbName = 'ordermanagement'
         dbUser = 'sa'
-        dbPassword = '1'
+        dbPassword = '123'
         dbmsVersion = '2012'
     }
 }
