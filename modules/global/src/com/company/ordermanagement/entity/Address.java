@@ -16,6 +16,9 @@ public class Address extends StandardEntity {
     @Column(name = "STREET", nullable = false)
     protected String street;
 
+    @Column(name = "POST_CODE")
+    protected String postCode;
+
     @NotNull
     @Column(name = "CITY", nullable = false)
     protected String city;
@@ -23,6 +26,14 @@ public class Address extends StandardEntity {
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "CUSTOMER_ID")
     protected Customer customer;
+
+    public String getPostCode() {
+        return postCode;
+    }
+
+    public void setPostCode(String postCode) {
+        this.postCode = postCode;
+    }
 
     public Customer getCustomer() {
         return customer;
